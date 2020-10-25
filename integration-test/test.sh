@@ -5,7 +5,7 @@ for dir in "An Imitation of Spenser" "Auguries of Innocence" "Fair Elanor"; do
 
   mkdir -p "results/$dir"
   echo "integration-test/$dir/text.txt"
-  java -jar build/libs/homework2.jar \
+  java -jar ../build/libs/homework2.jar \
     "integration-test/$dir/text.txt" \
     "results/$dir/result.txt"
 
